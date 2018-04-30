@@ -3,7 +3,8 @@ function iterativeLog(array) {
 }
 
 function iterate(callback) {
-
+  var array = [1, 2, 3]
+  array.forEach(callback)
 }
 
 function doToArray(array, callback) {
